@@ -96,27 +96,27 @@ Questions:
   
   Sample Request from Google Chrome: 
   
-  ...
-    GET/today?fresh=5 HTTP/1.1
-  HOST: abv.bg
-  user_agent:Google Chrome
-  date: .....
-  accept-language:...
-  cookies: user = 1.....
-  
-  data
-  ...
-  
-  Let's break it down:
-  ...
+  <pre><code>
   GET/today?fresh=5 HTTP/1.1
   HOST: abv.bg
   user_agent:Google Chrome
+  date: 
+  accept-language:
+  cookies: user = 1
+  
+  data
+  </code></pre>
+  
+  Let's break it down:
+  <pre><code>
+  GET/today?fresh=5 HTTP/1.1  --> request line, whose first word is the HTTP verb
+  HOST: abv.bg
+  user_agent:Google Chrome
   date: .....
   accept-language:...
   cookies: user = 1.....
   
   
   data
-  ...  
+  </code></pre>
   
